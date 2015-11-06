@@ -1,0 +1,1495 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: South Central\n"
+"POT-Creation-Date: 2014-04-16 19:44+0200\n"
+"PO-Revision-Date: 2014-04-16 19:47+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:62
+msgid "404 Error: Page not found!"
+msgstr ""
+
+#: archive.php:79 author.php:70 category.php:70 date.php:79 front-page.php:96
+#: home.php:86 search.php:90 single.php:84 tag.php:67
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: comments.php:29
+msgid "No comments yet. You should be kind and add one!"
+msgstr ""
+
+#: comments.php:35
+msgid "This is a required field!"
+msgstr ""
+
+#: comments.php:40
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:41
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:42
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:43
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:44
+msgid "Comment"
+msgstr ""
+
+#: comments.php:49
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:54
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:60
+msgid "Your email address will not be published."
+msgstr ""
+
+#: comments.php:64
+#, php-format
+msgid ""
+"<small>You may use these <abbr title=\"HyperText Markup Language\">HTML</"
+"abbr> tags and attributes:<br> %s"
+msgstr ""
+
+#: comments.php:69
+msgid "Name"
+msgstr ""
+
+#: comments.php:73
+msgid "Email"
+msgstr ""
+
+#: comments.php:78
+msgid "Website"
+msgstr ""
+
+#: comments.php:87
+msgid "The comments are closed."
+msgstr ""
+
+#: front-page.php:62 home.php:52
+msgid "Posted by "
+msgstr ""
+
+#: front-page.php:67 home.php:57
+msgid "No Comment yet"
+msgstr ""
+
+#: front-page.php:67 home.php:57
+msgid "1 comment"
+msgstr ""
+
+#: front-page.php:67 home.php:57
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: front-page.php:84 home.php:74
+msgid "&larr; Previous"
+msgstr ""
+
+#: front-page.php:87 home.php:77
+msgid "Next &rarr;"
+msgstr ""
+
+#: functions.php:66
+msgid "Pages:"
+msgstr ""
+
+#: functions.php:71 single.php:55
+msgid "Next page"
+msgstr ""
+
+#: functions.php:72 single.php:56
+msgid "Previous page"
+msgstr ""
+
+#: functions.php:244 highgrade/plugins/class-tgm-plugin-activation.php:164
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions.php:245 highgrade/plugins/class-tgm-plugin-activation.php:165
+msgid "Install Plugins"
+msgstr ""
+
+#: functions.php:246 highgrade/plugins/class-tgm-plugin-activation.php:166
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: functions.php:247
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions.php:248 highgrade/plugins/class-tgm-plugin-activation.php:168
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:249 highgrade/plugins/class-tgm-plugin-activation.php:169
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:250 highgrade/plugins/class-tgm-plugin-activation.php:170
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:251 highgrade/plugins/class-tgm-plugin-activation.php:171
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:252 highgrade/plugins/class-tgm-plugin-activation.php:172
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:253 highgrade/plugins/class-tgm-plugin-activation.php:173
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:254 highgrade/plugins/class-tgm-plugin-activation.php:174
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:255 highgrade/plugins/class-tgm-plugin-activation.php:175
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:256 highgrade/plugins/class-tgm-plugin-activation.php:176
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:257 highgrade/plugins/class-tgm-plugin-activation.php:177
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:258 highgrade/plugins/class-tgm-plugin-activation.php:178
+#: highgrade/plugins/class-tgm-plugin-activation.php:490
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions.php:259 highgrade/plugins/class-tgm-plugin-activation.php:179
+#: highgrade/plugins/class-tgm-plugin-activation.php:1846
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: functions.php:260
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: functions.php:318 functions.php:319 highgrade/config.php:664
+msgid "Portfolio"
+msgstr ""
+
+#: functions.php:333
+msgid "Testimonials"
+msgstr ""
+
+#: functions.php:334
+msgid "Testimonial"
+msgstr ""
+
+#: functions.php:352
+msgid "Categories"
+msgstr ""
+
+#: functions.php:365
+msgid "Page settings"
+msgstr ""
+
+#: functions.php:388
+msgid "Page color scheme"
+msgstr ""
+
+#: functions.php:402
+msgid "Page background color"
+msgstr ""
+
+#: functions.php:408
+msgid "Page top padding"
+msgstr ""
+
+#: functions.php:414
+msgid "Page bottom padding"
+msgstr ""
+
+#: functions.php:420
+msgid "Page height"
+msgstr ""
+
+#: functions.php:480
+msgid "Search"
+msgstr ""
+
+#: functions.php:497
+msgid "Invalid sidebar ID"
+msgstr ""
+
+#: functions.php:524
+msgid "Widgets in this area will be shown into the blog sidebar."
+msgstr ""
+
+#: functions.php:533
+msgid ""
+"Widgets in this area will be shown into the footer. Please add a maximum 4 "
+"widgets."
+msgstr ""
+
+#: highgrade/config.php:19
+#, php-format
+msgid "Customize &#8220;%s&#8221;"
+msgstr ""
+
+#: highgrade/config.php:26 highgrade/config.php:29
+msgid "Current theme preview"
+msgstr ""
+
+#: highgrade/config.php:38
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: highgrade/config.php:39
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: highgrade/config.php:40
+msgid "Tags"
+msgstr ""
+
+#: highgrade/config.php:44
+#, php-format
+msgid "This <a href=\"%1$s\">child theme</a> requires its parent theme, %2$s."
+msgstr ""
+
+#: highgrade/config.php:45
+msgid "http://codex.wordpress.org/Child_Themes"
+msgstr ""
+
+#: highgrade/config.php:107 highgrade/config.php:111
+msgid "Theme Options"
+msgstr ""
+
+#: highgrade/config.php:147
+msgid "<p>Powered by <a href=\""
+msgstr ""
+
+#: highgrade/config.php:153
+msgid "Branding"
+msgstr ""
+
+#: highgrade/config.php:159
+msgid "Normal Logo"
+msgstr ""
+
+#: highgrade/config.php:161
+msgid "Upload your logo. <br>Recomended: 188px x 60px transparent .png"
+msgstr ""
+
+#: highgrade/config.php:168
+msgid "Retina Logo @2x"
+msgstr ""
+
+#: highgrade/config.php:170
+msgid "Upload your retina logo. <br>Recomended: 376px x 120px transparent .png"
+msgstr ""
+
+#: highgrade/config.php:177
+msgid "Regular Favicon"
+msgstr ""
+
+#: highgrade/config.php:179
+msgid "Upload your favicon. <br>Recomended: 16px x 16px transparent .png file"
+msgstr ""
+
+#: highgrade/config.php:186
+msgid "Retina Favicon @2x"
+msgstr ""
+
+#: highgrade/config.php:188
+msgid ""
+"Upload your retina favicon. <br>Recomended: 32px x 32px transparent .png file"
+msgstr ""
+
+#: highgrade/config.php:195
+msgid "Apple iPhone Icon"
+msgstr ""
+
+#: highgrade/config.php:197
+msgid ""
+"Upload your Apple iPhone icon. <br>Recomended: 60px x 60px transparent .png "
+"file"
+msgstr ""
+
+#: highgrade/config.php:204
+msgid "Apple iPhone Retina Icon @2x"
+msgstr ""
+
+#: highgrade/config.php:206
+msgid ""
+"Upload your Apple iPhone Retina icon. <br>Recomended: 120px x 120px "
+"transparent .png file"
+msgstr ""
+
+#: highgrade/config.php:213
+msgid "Apple iPad Icon"
+msgstr ""
+
+#: highgrade/config.php:215
+msgid ""
+"Upload your Apple iPad icon. <br>Recomended: 76px x 76px transparent .png "
+"file"
+msgstr ""
+
+#: highgrade/config.php:222
+msgid "Apple iPad Retina Icon @2x"
+msgstr ""
+
+#: highgrade/config.php:224
+msgid ""
+"Upload your Apple iPad Retina icon. <br>Recomended: 152px x 152px "
+"transparent .png file"
+msgstr ""
+
+#: highgrade/config.php:233
+msgid "Colors"
+msgstr ""
+
+#: highgrade/config.php:234
+msgid "You can setup two color schemes: dark and light"
+msgstr ""
+
+#: highgrade/config.php:240 highgrade/config.php:805
+msgid "Body Background Color"
+msgstr ""
+
+#: highgrade/config.php:241
+msgid "Pick a background color for the theme."
+msgstr ""
+
+#: highgrade/config.php:251
+msgid "Theme dominant color"
+msgstr ""
+
+#: highgrade/config.php:252
+msgid "Pick a dominant color for the theme."
+msgstr ""
+
+#: highgrade/config.php:261
+msgid ""
+"Color options settings for \"dark\" color scheme (website sections that "
+"feature a dark image or background color; a light text color is recommended "
+"for these sections)."
+msgstr ""
+
+#: highgrade/config.php:267 highgrade/config.php:354 highgrade/config.php:816
+msgid "Text color"
+msgstr ""
+
+#: highgrade/config.php:268 highgrade/config.php:355 highgrade/config.php:817
+msgid "Pick a color for text."
+msgstr ""
+
+#: highgrade/config.php:277 highgrade/config.php:364 highgrade/config.php:826
+msgid "H1 Color"
+msgstr ""
+
+#: highgrade/config.php:278 highgrade/config.php:365 highgrade/config.php:827
+msgid "Pick a color for H1 tags."
+msgstr ""
+
+#: highgrade/config.php:287 highgrade/config.php:374 highgrade/config.php:836
+msgid "H2 Color"
+msgstr ""
+
+#: highgrade/config.php:288
+msgid "Pick a color for H2 tags (default: #ffffff)."
+msgstr ""
+
+#: highgrade/config.php:297 highgrade/config.php:384 highgrade/config.php:846
+msgid "H3 Color"
+msgstr ""
+
+#: highgrade/config.php:298
+msgid "Pick a color for H3 tags (default: #808080)."
+msgstr ""
+
+#: highgrade/config.php:307 highgrade/config.php:394 highgrade/config.php:856
+msgid "H4 Color"
+msgstr ""
+
+#: highgrade/config.php:308
+msgid "Pick a color for H4 tags (default: #ffffff)."
+msgstr ""
+
+#: highgrade/config.php:317 highgrade/config.php:404 highgrade/config.php:866
+msgid "H5 Color"
+msgstr ""
+
+#: highgrade/config.php:318
+msgid "Pick a color for H5 tags (default: #ffffff)."
+msgstr ""
+
+#: highgrade/config.php:327 highgrade/config.php:414 highgrade/config.php:876
+msgid "H6 Color"
+msgstr ""
+
+#: highgrade/config.php:328
+msgid "Pick a color for H6 tags (default: #808080)."
+msgstr ""
+
+#: highgrade/config.php:337 highgrade/config.php:424 highgrade/config.php:886
+msgid "Links Color"
+msgstr ""
+
+#: highgrade/config.php:338
+msgid "Pick a color for links (default: #80c8ac)."
+msgstr ""
+
+#: highgrade/config.php:348
+msgid ""
+"Color options settings for \"light\" color scheme (website sections that "
+"feature a light image or background color; a dark text color is recommended "
+"for these sections)."
+msgstr ""
+
+#: highgrade/config.php:375 highgrade/config.php:837
+msgid "Pick a color for H2 tags (default: #000000)."
+msgstr ""
+
+#: highgrade/config.php:385 highgrade/config.php:847
+msgid "Pick a color for H3 tags (default: #000000)."
+msgstr ""
+
+#: highgrade/config.php:395 highgrade/config.php:857
+msgid "Pick a color for H4 tags (default: #000000)."
+msgstr ""
+
+#: highgrade/config.php:405 highgrade/config.php:867
+msgid "Pick a color for H5 tags (default: #000000)."
+msgstr ""
+
+#: highgrade/config.php:415 highgrade/config.php:877
+msgid "Pick a color for H6 tags (default: #000000)."
+msgstr ""
+
+#: highgrade/config.php:425
+msgid "Pick a color for links (default: #6a6a6a)."
+msgstr ""
+
+#: highgrade/config.php:438
+msgid "Typography"
+msgstr ""
+
+#: highgrade/config.php:444
+msgid "Body Font"
+msgstr ""
+
+#: highgrade/config.php:445 highgrade/config.php:701
+msgid "Specify the body font properties."
+msgstr ""
+
+#: highgrade/config.php:459 highgrade/config.php:715
+msgid "H1 Font"
+msgstr ""
+
+#: highgrade/config.php:460 highgrade/config.php:716
+msgid "Specify the H1 font properties."
+msgstr ""
+
+#: highgrade/config.php:474 highgrade/config.php:730
+msgid "H2 Font"
+msgstr ""
+
+#: highgrade/config.php:475 highgrade/config.php:731
+msgid "Specify the H2 font properties."
+msgstr ""
+
+#: highgrade/config.php:489 highgrade/config.php:745
+msgid "H3 Font"
+msgstr ""
+
+#: highgrade/config.php:490 highgrade/config.php:746
+msgid "Specify the H3 font properties."
+msgstr ""
+
+#: highgrade/config.php:504 highgrade/config.php:760
+msgid "H4 Font"
+msgstr ""
+
+#: highgrade/config.php:505 highgrade/config.php:761
+msgid "Specify the H4 font properties."
+msgstr ""
+
+#: highgrade/config.php:519 highgrade/config.php:775
+msgid "H5 Font"
+msgstr ""
+
+#: highgrade/config.php:520 highgrade/config.php:776
+msgid "Specify the H5 font properties."
+msgstr ""
+
+#: highgrade/config.php:534 highgrade/config.php:790
+msgid "H6 Font"
+msgstr ""
+
+#: highgrade/config.php:535 highgrade/config.php:791
+msgid "Specify the H6 font properties."
+msgstr ""
+
+#: highgrade/config.php:551
+msgid "Menu"
+msgstr ""
+
+#: highgrade/config.php:557
+msgid "Menu Font"
+msgstr ""
+
+#: highgrade/config.php:558
+msgid "Specify the menu font properties."
+msgstr ""
+
+#: highgrade/config.php:572
+msgid "Menu Font Color"
+msgstr ""
+
+#: highgrade/config.php:573
+msgid "Specify the menu font color."
+msgstr ""
+
+#: highgrade/config.php:583
+msgid "Floating menu bar?"
+msgstr ""
+
+#: highgrade/config.php:584
+msgid ""
+"Floating menu is hidden by default and it shows only after page scrolling."
+msgstr ""
+
+#: highgrade/config.php:591
+msgid "Menu bar background image"
+msgstr ""
+
+#: highgrade/config.php:592
+msgid "Upload your background image for menu bar"
+msgstr ""
+
+#: highgrade/config.php:593
+msgid "If empty, the background color will be used"
+msgstr ""
+
+#: highgrade/config.php:600
+msgid "Menu bar background color"
+msgstr ""
+
+#: highgrade/config.php:601
+msgid "Set the background color of the menu bar"
+msgstr ""
+
+#: highgrade/config.php:613
+msgid "Footer"
+msgstr ""
+
+#: highgrade/config.php:618
+msgid ""
+"You can add one, two, three or maximum four widgest to the footer. Please "
+"setup your footer widgets in Appearance -> Widgets."
+msgstr ""
+
+#: highgrade/config.php:624
+msgid "Footer background color"
+msgstr ""
+
+#: highgrade/config.php:625
+msgid "Set the background color for footer"
+msgstr ""
+
+#: highgrade/config.php:635
+msgid "Footer bar color"
+msgstr ""
+
+#: highgrade/config.php:636
+msgid "Set the color for widget title bottom bar"
+msgstr ""
+
+#: highgrade/config.php:646
+msgid "Color scheme to use on footer"
+msgstr ""
+
+#: highgrade/config.php:653
+msgid "Footer copyright text"
+msgstr ""
+
+#: highgrade/config.php:654
+msgid "If empty, this section will be hidden."
+msgstr ""
+
+#: highgrade/config.php:655
+msgid "HTML is permited"
+msgstr ""
+
+#: highgrade/config.php:669
+msgid "Portfolio items to show"
+msgstr ""
+
+#: highgrade/config.php:676
+msgid "Order by"
+msgstr ""
+
+#: highgrade/config.php:677
+msgid "Order portfolio items by..."
+msgstr ""
+
+#: highgrade/config.php:684
+msgid "Order"
+msgstr ""
+
+#: highgrade/config.php:694
+msgid "Blog settings"
+msgstr ""
+
+#: highgrade/config.php:700
+msgid "Body Font for blog"
+msgstr ""
+
+#: highgrade/config.php:806
+msgid "Pick a background color for blog."
+msgstr ""
+
+#: highgrade/config.php:887
+msgid "Pick a color for links (default: #7ec9ac)."
+msgstr ""
+
+#: highgrade/config.php:900
+msgid "Advanced"
+msgstr ""
+
+#: highgrade/config.php:905
+msgid "Enable parallax on desktops?"
+msgstr ""
+
+#: highgrade/config.php:906
+msgid "If enabled, parallax effects will be available in page"
+msgstr ""
+
+#: highgrade/config.php:912
+msgid "Enable parallax on mobile devices?"
+msgstr ""
+
+#: highgrade/config.php:913
+msgid "If enabled, parallax effects will be available on mobile devices too."
+msgstr ""
+
+#: highgrade/config.php:919
+msgid "Enable css animations?"
+msgstr ""
+
+#: highgrade/config.php:920
+msgid "If enabled, css animations will be available in page"
+msgstr ""
+
+#: highgrade/config.php:929
+msgid "Custom code"
+msgstr ""
+
+#: highgrade/config.php:934
+msgid "CSS Code"
+msgstr ""
+
+#: highgrade/config.php:935
+msgid "Paste your CSS code here. Il will be loaded into theme header."
+msgstr ""
+
+#: highgrade/config.php:942
+msgid "JS Code"
+msgstr ""
+
+#: highgrade/config.php:943
+msgid "Paste your JS code here. It will be loaded into theme footer"
+msgstr ""
+
+#: highgrade/config.php:951
+msgid "Tracking Code"
+msgstr ""
+
+#: highgrade/config.php:952
+msgid ""
+"Paste your Google Analytics (or other) tracking code here. This will be "
+"added into the footer template of your theme."
+msgstr ""
+
+#: highgrade/config.php:978
+msgid "<strong>Theme URL:</strong> "
+msgstr ""
+
+#: highgrade/config.php:979
+msgid "<strong>Author:</strong> "
+msgstr ""
+
+#: highgrade/config.php:980
+msgid "<strong>Version:</strong> "
+msgstr ""
+
+#: highgrade/config.php:983
+msgid "<strong>Tags:</strong> "
+msgstr ""
+
+#: highgrade/framework/extensions/edd/edd_license/EDD_License_Handler.php:112
+#, php-format
+msgid "%1$s License Key"
+msgstr ""
+
+#: highgrade/framework/extensions/edd/edd_license/EDD_License_Handler.php:218
+#: highgrade/framework/extensions/edd/edd_license/field_edd_license.php:142
+msgid "Deactivate License"
+msgstr ""
+
+#: highgrade/framework/extensions/edd/edd_license/EDD_SL_Theme_Updater.php:54
+msgid ""
+"Updating this theme will lose any customizations you have made. 'Cancel' to "
+"stop, 'OK' to update."
+msgstr ""
+
+#: highgrade/framework/extensions/edd/edd_license/field_edd_license.php:110
+#: highgrade/framework/extensions/edd/extension_edd.php:170
+msgid "Not Activated"
+msgstr ""
+
+#: highgrade/framework/extensions/edd/edd_license/field_edd_license.php:114
+#: highgrade/framework/extensions/edd/extension_edd.php:173
+msgid "Deactivated"
+msgstr ""
+
+#: highgrade/framework/extensions/edd/edd_license/field_edd_license.php:116
+#: highgrade/framework/extensions/edd/extension_edd.php:77
+#: highgrade/framework/extensions/edd/extension_edd.php:119
+#: highgrade/framework/extensions/edd/extension_edd.php:176
+msgid "Valid"
+msgstr ""
+
+#: highgrade/framework/extensions/edd/edd_license/field_edd_license.php:123
+msgid "License Status"
+msgstr ""
+
+#: highgrade/framework/extensions/edd/edd_license/field_edd_license.php:132
+msgid "Verify License"
+msgstr ""
+
+#: highgrade/framework/extensions/edd/edd_license/field_edd_license.php:137
+msgid "Activate License"
+msgstr ""
+
+#: highgrade/framework/extensions/edd/extension_edd.php:179
+msgid "Not Valid"
+msgstr ""
+
+#: highgrade/framework/framework.php:104 highgrade/framework/framework.php:110
+#: highgrade/framework/framework.php:249 highgrade/framework/framework.php:251
+msgid "Options"
+msgstr ""
+
+#: highgrade/framework/framework.php:893 highgrade/framework/framework.php:894
+#: highgrade/framework/framework.php:1875
+msgid "Import / Export"
+msgstr ""
+
+#: highgrade/framework/framework.php:904 highgrade/framework/framework.php:905
+#: highgrade/framework/framework.php:1891
+#: highgrade/framework/framework.php:1989
+msgid "Options Object"
+msgstr ""
+
+#: highgrade/framework/framework.php:915 highgrade/framework/framework.php:916
+#: highgrade/framework/framework.php:1905
+#: highgrade/framework/framework.php:2009
+msgid "System Info"
+msgstr ""
+
+#: highgrade/framework/framework.php:1170
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+
+#: highgrade/framework/framework.php:1171
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+
+#: highgrade/framework/framework.php:1172
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+
+#: highgrade/framework/framework.php:1173
+msgid ""
+"Your current options will be replaced with the values of this preset. Would "
+"you like to proceed?"
+msgstr ""
+
+#: highgrade/framework/framework.php:1421
+msgid "Default"
+msgstr ""
+
+#: highgrade/framework/framework.php:1730
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+
+#: highgrade/framework/framework.php:1791
+#: highgrade/framework/framework.php:2039
+msgid "Save Changes"
+msgstr ""
+
+#: highgrade/framework/framework.php:1793
+#: highgrade/framework/framework.php:2041
+msgid "Reset Section"
+msgstr ""
+
+#: highgrade/framework/framework.php:1795
+#: highgrade/framework/framework.php:2043
+msgid "Reset All"
+msgstr ""
+
+#: highgrade/framework/framework.php:1798
+#: highgrade/framework/framework.php:2046
+msgid "Working..."
+msgstr ""
+
+#: highgrade/framework/framework.php:1805
+msgid "Settings Imported!"
+msgstr ""
+
+#: highgrade/framework/framework.php:1807
+msgid "Settings Saved!"
+msgstr ""
+
+#: highgrade/framework/framework.php:1811
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: highgrade/framework/framework.php:1812
+msgid "error(s) were found!"
+msgstr ""
+
+#: highgrade/framework/framework.php:1813
+msgid "warning(s) were found!"
+msgstr ""
+
+#: highgrade/framework/framework.php:1942
+msgid "Import / Export Options"
+msgstr ""
+
+#: highgrade/framework/framework.php:1943
+msgid "Import Options"
+msgstr ""
+
+#: highgrade/framework/framework.php:1944
+msgid "Import from file"
+msgstr ""
+
+#: highgrade/framework/framework.php:1944
+msgid "Import from URL"
+msgstr ""
+
+#: highgrade/framework/framework.php:1949
+msgid ""
+"Input your backup file below and hit Import to restore your sites options "
+"from a backup."
+msgstr ""
+
+#: highgrade/framework/framework.php:1959
+msgid ""
+"Input the URL to another sites options set and hit Import to load the "
+"options from that site."
+msgstr ""
+
+#: highgrade/framework/framework.php:1966
+msgid "Import"
+msgstr ""
+
+#: highgrade/framework/framework.php:1966
+msgid ""
+"WARNING! This will overwrite all existing option values, please proceed with "
+"caution!"
+msgstr ""
+
+#: highgrade/framework/framework.php:1969
+msgid "Export Options"
+msgstr ""
+
+#: highgrade/framework/framework.php:1971
+msgid ""
+"Here you can copy/download your current option settings. Keep this safe as "
+"you can use it as a backup should anything go wrong, or you can use it to "
+"restore your settings on this site (or any other site)."
+msgstr ""
+
+#: highgrade/framework/framework.php:1975
+msgid "Copy"
+msgstr ""
+
+#: highgrade/framework/framework.php:1975
+msgid "Download"
+msgstr ""
+
+#: highgrade/framework/framework.php:1975
+msgid "Copy Link"
+msgstr ""
+
+#: highgrade/framework/framework.php:1998
+msgid "Show Object in Javascript Console Object"
+msgstr ""
+
+#: highgrade/framework/inc/fields/accordion/field_accordion.php:51
+msgid "Wrong field type <em>("
+msgstr ""
+
+#: highgrade/framework/inc/fields/border/field_border.php:112
+#: highgrade/framework/inc/fields/spacing/field_spacing.php:125
+msgid "All"
+msgstr ""
+
+#: highgrade/framework/inc/fields/border/field_border.php:125
+#: highgrade/framework/inc/fields/spacing/field_spacing.php:149
+msgid "Top"
+msgstr ""
+
+#: highgrade/framework/inc/fields/border/field_border.php:132
+#: highgrade/framework/inc/fields/spacing/field_spacing.php:156
+msgid "Right"
+msgstr ""
+
+#: highgrade/framework/inc/fields/border/field_border.php:139
+#: highgrade/framework/inc/fields/spacing/field_spacing.php:163
+msgid "Bottom"
+msgstr ""
+
+#: highgrade/framework/inc/fields/border/field_border.php:146
+#: highgrade/framework/inc/fields/spacing/field_spacing.php:170
+msgid "Left"
+msgstr ""
+
+#: highgrade/framework/inc/fields/border/field_border.php:162
+msgid "Border style"
+msgstr ""
+
+#: highgrade/framework/inc/fields/color/field_color.php:72
+#: highgrade/framework/inc/fields/color_gradient/field_color_gradient.php:81
+#: highgrade/framework/inc/fields/color_gradient/field_color_gradient.php:91
+#: highgrade/framework/inc/fields/color_rgba/field_color_rgba.php:84
+msgid "Transparent"
+msgstr ""
+
+#: highgrade/framework/inc/fields/color_gradient/field_color_gradient.php:73
+msgid "From "
+msgstr ""
+
+#: highgrade/framework/inc/fields/color_gradient/field_color_gradient.php:84
+msgid "To "
+msgstr ""
+
+#: highgrade/framework/inc/fields/dimensions/field_dimensions.php:139
+msgid "Width"
+msgstr ""
+
+#: highgrade/framework/inc/fields/dimensions/field_dimensions.php:155
+msgid "height"
+msgstr ""
+
+#: highgrade/framework/inc/fields/dimensions/field_dimensions.php:168
+#: highgrade/framework/inc/fields/dimensions/field_dimensions.php:169
+#: highgrade/framework/inc/fields/spacing/field_spacing.php:181
+#: highgrade/framework/inc/fields/spacing/field_spacing.php:182
+msgid "Units"
+msgstr ""
+
+#: highgrade/framework/inc/fields/gallery/field_gallery.php:77
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: highgrade/framework/inc/fields/gallery/field_gallery.php:78
+msgid "Clear Gallery"
+msgstr ""
+
+#: highgrade/framework/inc/fields/group/field_group.php:71
+msgid "New"
+msgstr ""
+
+#: highgrade/framework/inc/fields/group/field_group.php:84
+msgid "New "
+msgstr ""
+
+#: highgrade/framework/inc/fields/group/field_group.php:133
+#: highgrade/framework/inc/fields/group/field_group.php:198
+msgid "Delete"
+msgstr ""
+
+#: highgrade/framework/inc/fields/group/field_group.php:203
+msgid "Add"
+msgstr ""
+
+#: highgrade/framework/inc/fields/link_color/field_link_color.php:86
+msgid "Regular"
+msgstr ""
+
+#: highgrade/framework/inc/fields/link_color/field_link_color.php:90
+msgid "Hover"
+msgstr ""
+
+#: highgrade/framework/inc/fields/link_color/field_link_color.php:94
+msgid "Visited"
+msgstr ""
+
+#: highgrade/framework/inc/fields/link_color/field_link_color.php:98
+msgid "Active"
+msgstr ""
+
+#: highgrade/framework/inc/fields/media/field_media.php:116
+msgid "No media selected"
+msgstr ""
+
+#: highgrade/framework/inc/fields/media/field_media.php:150
+#: highgrade/framework/inc/fields/slides/field_slides.php:117
+#: highgrade/framework/inc/fields/slides/field_slides.php:180
+msgid "Upload"
+msgstr ""
+
+#: highgrade/framework/inc/fields/media/field_media.php:156
+#: highgrade/framework/inc/fields/multi_text/field_multi_text.php:75
+#: highgrade/framework/inc/fields/multi_text/field_multi_text.php:78
+#: highgrade/framework/inc/fields/multi_text/field_multi_text.php:81
+#: highgrade/framework/inc/fields/slides/field_slides.php:123
+#: highgrade/framework/inc/fields/slides/field_slides.php:182
+msgid "Remove"
+msgstr ""
+
+#: highgrade/framework/inc/fields/multi_text/field_multi_text.php:65
+msgid "Add More"
+msgstr ""
+
+#: highgrade/framework/inc/fields/password/field_password.php:55
+msgid "Password"
+msgstr ""
+
+#: highgrade/framework/inc/fields/password/field_password.php:56
+msgid "Username"
+msgstr ""
+
+#: highgrade/framework/inc/fields/select/field_select.php:69
+#: highgrade/framework/inc/fields/select_image/field_select_image.php:59
+msgid "Select an item"
+msgstr ""
+
+#: highgrade/framework/inc/fields/select/field_select.php:110
+#: highgrade/framework/inc/fields/select_image/field_select_image.php:134
+msgid "No items of this type were found."
+msgstr ""
+
+#: highgrade/framework/inc/fields/slides/field_slides.php:128
+#: highgrade/framework/inc/fields/slides/field_slides.php:187
+msgid "Title"
+msgstr ""
+
+#: highgrade/framework/inc/fields/slides/field_slides.php:129
+#: highgrade/framework/inc/fields/slides/field_slides.php:189
+msgid "Description"
+msgstr ""
+
+#: highgrade/framework/inc/fields/slides/field_slides.php:130
+#: highgrade/framework/inc/fields/slides/field_slides.php:191
+msgid "URL"
+msgstr ""
+
+#: highgrade/framework/inc/fields/slides/field_slides.php:138
+#: highgrade/framework/inc/fields/slides/field_slides.php:200
+msgid "Select an Option"
+msgstr ""
+
+#: highgrade/framework/inc/fields/slides/field_slides.php:158
+#: highgrade/framework/inc/fields/slides/field_slides.php:220
+msgid "Delete Slide"
+msgstr ""
+
+#: highgrade/framework/inc/fields/slides/field_slides.php:223
+msgid "Add Slide"
+msgstr ""
+
+#: highgrade/framework/inc/fields/typography/field_typography.php:109
+msgid "Font family"
+msgstr ""
+
+#: highgrade/framework/inc/fields/typography/field_typography.php:150
+msgid "Standard Fonts"
+msgstr ""
+
+#: highgrade/framework/inc/fields/typography/field_typography.php:186
+#: highgrade/framework/inc/fields/typography/field_typography.php:190
+msgid "Font style"
+msgstr ""
+
+#: highgrade/framework/inc/fields/typography/field_typography.php:190
+msgid "Style"
+msgstr ""
+
+#: highgrade/framework/inc/fields/typography/field_typography.php:216
+msgid "Font subsets"
+msgstr ""
+
+#: highgrade/framework/inc/fields/typography/field_typography.php:217
+msgid "Subsets"
+msgstr ""
+
+#: highgrade/framework/inc/fields/typography/field_typography.php:217
+msgid "Font script"
+msgstr ""
+
+#: highgrade/framework/inc/fields/typography/field_typography.php:235
+msgid "Size"
+msgstr ""
+
+#: highgrade/framework/inc/fields/typography/field_typography.php:244
+msgid "Height"
+msgstr ""
+
+#: highgrade/framework/inc/fields/typography/field_typography.php:252
+msgid "Word Spacing"
+msgstr ""
+
+#: highgrade/framework/inc/fields/typography/field_typography.php:260
+msgid "Letter Spacing"
+msgstr ""
+
+#: highgrade/framework/inc/fields/typography/field_typography.php:274
+msgid "Backup Font Family"
+msgstr ""
+
+#: highgrade/framework/inc/fields/typography/field_typography.php:294
+msgid "Font color"
+msgstr ""
+
+#: highgrade/framework/inc/fields/typography/field_typography.php:590
+msgid "Google Webfonts"
+msgstr ""
+
+#: highgrade/framework/inc/tracking.php:59
+msgid "Help improve Our Panel"
+msgstr ""
+
+#: highgrade/framework/inc/tracking.php:60
+msgid ""
+"Please helps us improve our panel by allowing us to gather anonymous usage "
+"stats so we know which configurations, plugins and themes to test with."
+msgstr ""
+
+#: highgrade/framework/inc/tracking.php:65
+msgid "Allow tracking"
+msgstr ""
+
+#: highgrade/framework/inc/tracking.php:70
+msgid "Do not allow tracking"
+msgstr ""
+
+#: highgrade/framework/inc/validation/color/validation_color.php:15
+#: highgrade/framework/inc/validation/color_rgba/validation_color_rgba.php:15
+#: highgrade/framework/inc/validation/colorrgba/validation_colorrgba.php:15
+msgid "This field must be a valid color value."
+msgstr ""
+
+#: highgrade/framework/inc/validation/comma_numeric/validation_comma_numeric.php:15
+msgid ""
+"You must provide a comma separated list of numerical values for this option."
+msgstr ""
+
+#: highgrade/framework/inc/validation/date/validation_date.php:15
+msgid "This field must be a valid date."
+msgstr ""
+
+#: highgrade/framework/inc/validation/email/validation_email.php:15
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: highgrade/framework/inc/validation/no_html/validation_no_html.php:15
+msgid ""
+"You must not enter any HTML in this field, all HTML tags have been removed."
+msgstr ""
+
+#: highgrade/framework/inc/validation/no_special_chars/validation_no_special_chars.php:15
+msgid ""
+"You must not enter any special characters in this field, all special "
+"characters have been removed."
+msgstr ""
+
+#: highgrade/framework/inc/validation/numeric/validation_numeric.php:15
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: highgrade/framework/inc/validation/url/validation_url.php:15
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:167
+msgid "Something went wrong."
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:180
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:517
+#: highgrade/plugins/class-tgm-plugin-activation.php:2058
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:545
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:704
+msgid "Dismiss this notice"
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:1091
+msgid "External Link"
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:1096
+msgid "Private Repository"
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:1099
+msgid "Pre-Packaged"
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:1103
+msgid "WordPress Repository"
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:1106
+msgid "Required"
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:1106
+msgid "Recommended"
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:1109
+msgid "Not Installed"
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:1111
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:1281
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:1297
+msgid "Plugin"
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:1298
+msgid "Source"
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:1299
+msgid "Type"
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:1300
+msgid "Status"
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:1318
+msgid "Install"
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:1319
+msgid "Activate"
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:1544
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:1829
+msgid "Install package not available."
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:1830
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:1831
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:1832
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:1833
+msgid "Plugin install failed."
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:1834
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:1845
+msgid "Plugin activation failed."
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:1955
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:1956
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:1956
+#: highgrade/plugins/class-tgm-plugin-activation.php:1965
+msgid "Show Details"
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:1956
+#: highgrade/plugins/class-tgm-plugin-activation.php:1965
+msgid "Hide Details"
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:1957
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:1962
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:1963
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:1964
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:1965
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:1966
+msgid "All installations have been completed."
+msgstr ""
+
+#: highgrade/plugins/class-tgm-plugin-activation.php:1967
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: search.php:39
+msgid "You've searched for \""
+msgstr ""
+
+#: search.php:41
+msgid "\", and got "
+msgstr ""
+
+#: search.php:43
+msgid " result(s)."
+msgstr ""

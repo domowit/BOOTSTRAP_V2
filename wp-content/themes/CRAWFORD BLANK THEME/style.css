@@ -1,0 +1,108 @@
+/*
+Theme Name: 	CRAWFORD BLANK THEME
+Theme URI: 		
+Description: CRAWFORD BLANK THEME
+Version: 	1.0
+Author: 	Johnathan Crawford
+Author URI: http://domowit.com
+Tags: 	SIMPLE FRAMEWORK 
+*/
+@import "css/ie.css";
+@import "css/reset.css";
+@import "css/responsive.gs.16col.css";
+@import "css/headhesive.css";
+@import "css/form.css";
+
+
+/*	EXAMPLE STYLES */
+body {
+	font-family: sans-serif;
+}
+
+header {
+	text-align: center;
+	background: #f2f2f2;
+	padding: 20px 0;
+}
+
+article {
+	padding: 10em 0;
+	text-align: center;
+	background: #f2f2f2;
+}
+
+aside {
+	padding: 10em 0;
+	text-align: center;
+	background: #f2f2f2;
+}
+
+footer {
+	padding: 10em 0;
+	text-align: center;
+	background: #f2f2f2;
+}
+
+/*	Typography VIA http://www.gridlover.net/app/  (MAJOR SIXTH) */
+body {
+  font-size: 1em;
+  line-height: 1.625em;
+  max-width: 760px;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 4.625em;
+  line-height: 1.054054053em;
+  margin-top: 0.7027027em;
+  margin-bottom: 0.35135135em;
+  font-weight:bold
+}
+h2 {
+  font-size: 2.75em;
+  line-height: 1.181818182em;
+  margin-top: 1.18181818em;
+  margin-bottom: 0.59090909em;
+  font-weight:bold
+}
+h3 {
+  font-size: 1.6875em;
+  line-height: 1.925925926em;
+  margin-top: 0.96296296em;
+  margin-bottom: 0.96296296em;
+  font-weight:bold
+}
+h4 {
+  font-size: 1em;
+  line-height: 1.625em;
+  margin-top: 1.625em;
+  margin-bottom: 1.625em;
+  font-weight:bold
+}
+p, ul, ol, pre, table, blockquote {
+  margin-top: 1.625em;
+  margin-bottom: 1.625em;
+}
+
+/* Sanitation */
+hr {
+  border: 1px solid;
+  margin: -1px 0;
+}
+ul ul, ol ol, ul ol, ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+b, strong, em, small, code {
+  line-height: 1;
+}
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+sub {
+  top: 0.4em;
+}
+
+
+
