@@ -1,0 +1,172 @@
+/*
+Theme Name: 	craw.co
+Theme URI: 		
+Description: Johnathan Crawford's Portfolio
+Version: 	1.0
+Author: 	Johnathan Crawford
+Author URI: http://craw.co
+Tags: 	SIMPLE FRAMEWORK 
+*/
+@import "css/ie.css";
+@import "css/reset.css";
+@import "css/responsive.gs.12col.css";
+/*@import "css/headhesive.css";*/
+@import "css/form.css";
+
+
+
+
+html, body {height:100%
+-webkit-font-smoothing: antialiased;
+ font-size: .9em;
+  line-height: 1.625em;
+}
+body {
+	
+	font-family: 'gt_walsheim_regular';       
+}
+/* GT Walsheim Web Regular */
+@font-face {
+  font-family: 'gt_walsheim_regular';
+  src: url("fonts/GT-Walsheim-Regular.eot");
+  src: url("fonts/GT-Walsheim-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/GT-Walsheim-Regular.woff") format("woff"), url("fonts/GT-Walsheim-Regular.ttf") format("truetype"), url("fonts/GT-Walsheim-Regular.svg#gt_walsheim_regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'gt_walsheim_regular_oblique';
+  src: url("fonts/GT-Walsheim-Regular-Oblique.eot");
+  src: url("fonts/GT-Walsheim-Regular-Oblique.eot?#iefix") format("embedded-opentype"), url(".fonts/GT-Walsheim-Regular-Oblique.woff") format("woff"), url("fonts/GT-Walsheim-Regular-Oblique.ttf") format("truetype"), url("fonts/GT-Walsheim-Regular-Oblique.svg#gt_walsheim_regular_oblique") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* GT Walsheim Web Medium */
+
+@font-face {
+  font-family: 'gt_walsheim_medium';
+  src: url("fonts/GT-Walsheim-Medium.eot");
+  src: url(".fonts/GT-Walsheim-Medium.eot?#iefix") format("embedded-opentype"), url("fonts/GT-Walsheim-Medium.woff") format("woff"), url("fonts/GT-Walsheim-Medium.ttf") format("truetype"), url(".fonts/GT-Walsheim-Medium.svg#gt_walsheim_medium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'gt_walsheim_medium_oblique';
+  src: url("fonts/GT-Walsheim-Medium-Oblique.eot");
+  src: url("fonts/GT-Walsheim-Medium-Oblique.eot?#iefix") format("embedded-opentype"), url("fonts/GT-Walsheim-Medium-Oblique.woff") format("woff"), url("fonts/GT-Walsheim-Medium-Oblique.ttf") format("truetype"), url("fonts/GT-Walsheim-Medium-Oblique.svg#gt_walsheim_medium_oblique") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+
+
+	
+	
+	
+
+h1,h2{
+	 font-family: 'gt_walsheim_medium' , serif;
+	
+}
+h3{
+	 font-family: 'gt_walsheim_regular' , serif;
+	
+}
+p {
+ 
+font-size: 1.2em;
+margin-bottom:30px}
+
+header {
+	text-align:right;
+	background: rgba(255, 255, 255, .9);
+	padding: 5px 0;
+	position:fixed;
+	top:0;
+	display:block;
+	width:100%;
+	z-index:9000;
+}
+.navHome {
+	    display: none;
+}
+
+article {
+	padding: 0;
+}
+
+.interests {
+	background: rgb(119, 191, 63);
+	padding:50px 0;
+	color:#fff;
+}
+
+footer {
+	padding: 10em 0;
+	text-align: center;
+	background: #f2f2f2;
+}
+/*PORTFOLIO*/
+.headerPost {
+	height:70%;
+	width:100%;
+	display: block;
+
+  
+}
+
+/*	Typography VIA http://www.gridlover.net/app/  (MAJOR SIXTH) */
+
+h1 {
+  font-size: 4.625em;
+  line-height: 1.054054053em;
+  margin-top: 0.7027027em;
+  margin-bottom: 0.35135135em;
+  font-weight:bold
+}
+h2 {
+  font-size: 2.75em;
+  line-height: 1.181818182em;
+  margin-top: 1.18181818em;
+  margin-bottom: 0.59090909em;
+  font-weight:bold
+}
+h3 {
+  font-size: 1.6875em;
+  line-height: 1.925925926em;
+  margin-top: 0.96296296em;
+  margin-bottom: 0.96296296em;
+  font-weight:bold
+}
+h4 {
+  font-size: 1em;
+  line-height: 1.625em;
+  margin-top: 1.625em;
+  margin-bottom: 1.625em;
+  font-weight:bold
+}
+p, ul, ol, pre, table, blockquote {
+  margin-top: 1.625em;
+  margin-bottom: 1.625em;
+}
+
+/* Sanitation */
+hr {
+  border: 1px solid;
+  margin: -1px 0;
+}
+ul ul, ol ol, ul ol, ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+b, strong, em, small, code {
+  line-height: 1;
+}
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+sub {
+  top: 0.4em;
+}
+
+
+

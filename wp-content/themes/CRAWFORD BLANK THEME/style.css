@@ -9,32 +9,39 @@ Tags: 	SIMPLE FRAMEWORK
 */
 @import "css/ie.css";
 @import "css/reset.css";
-@import "css/responsive.gs.16col.css";
-@import "css/headhesive.css";
+@import "css/responsive.gs.12col.css";
+/*@import "css/headhesive.css";*/
 @import "css/form.css";
 
 
 /*	EXAMPLE STYLES */
+html, body {height:100%}
 body {
 	font-family: sans-serif;
 }
 
 header {
-	text-align: center;
-	background: #f2f2f2;
-	padding: 20px 0;
+	text-align:right;
+	background: rgba(255, 255, 255, .9);
+	padding: 5px 0;
+	position:fixed;
+	top:0;
+	display:block;
+	width:100%;
+	z-index:9000;
+}
+.navHome {
+	    display: none;
 }
 
 article {
-	padding: 10em 0;
-	text-align: center;
-	background: #f2f2f2;
+	padding: 0;
 }
 
-aside {
-	padding: 10em 0;
-	text-align: center;
-	background: #f2f2f2;
+.interests {
+	background: rgb(119, 191, 63);
+	padding:50px 0;
+	color:#fff;
 }
 
 footer {
@@ -42,13 +49,19 @@ footer {
 	text-align: center;
 	background: #f2f2f2;
 }
+/*PORTFOLIO*/
+.headerPost {
+	height:70%;
+	width:100%;
+	display: block;
+
+  
+}
 
 /*	Typography VIA http://www.gridlover.net/app/  (MAJOR SIXTH) */
 body {
   font-size: 1em;
   line-height: 1.625em;
-  max-width: 760px;
-  margin: 0 auto;
 }
 h1 {
   font-size: 4.625em;
