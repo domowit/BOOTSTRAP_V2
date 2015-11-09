@@ -21,7 +21,7 @@
 	Set the width to whatever you want the width of your site to be. */
 .container { 
 	margin: 0 auto;
-	max-width:1140px;
+	max-width:1024px;
 	padding:0 3em; 
 }
 
@@ -53,12 +53,12 @@
 
 @media ( min-width : 768px ) {
 	
-	.gutters .col {
-		margin-left: 2%;
+	.gutters  {
+		padding-right: 2%;
 	}
 	
-	.gutters .col:first-child { 
-		margin-left: 0; 
+	.gutters:first-last { 
+		padding-left: 5%; 
 	}
 }
 
@@ -86,7 +86,7 @@
 	.gutters .span_3 { width: 23.5%; }
 	.gutters .span_4 { width: 32.0%; }
 	.gutters .span_5 { width: 40.5%; }
-	.gutters .span_6 { width: 49.0%; }
+	.gutters.span_6 { width: 49.0%; }
 	.gutters .span_7 { width: 57.5%; }
 	.gutters .span_8 { width: 66.0%; }
 	.gutters .span_9 { width: 74.5%; }
