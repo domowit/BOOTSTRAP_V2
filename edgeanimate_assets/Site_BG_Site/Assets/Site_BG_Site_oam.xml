@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://openajax.org/metadata" spec="1.0" id="tag:adobe.com,2012-03:edge:oam:compid:EDGE-95192478" name="Site_BG_Site" version="1">
+
+  <description type="text/html"><![CDATA[Widget Exported from Adobe Edge (V1.DW.Edge)]]></description>
+  <category name="Adobe Edge Animation"/>
+
+  <remarks>Compatible with: InDesign CC, Dreamweaver CC, Muse</remarks>
+
+  <icon src="images/Poster2.png" width="1600" height="1800" />
+
+  <require type="other" src="Site_BG_Site.html" />
+  <require type="other" src="images/all.svg" />
+  <require type="other" src="images/circle-01.svg" />
+  <require type="other" src="images/preloader1.gif" />
+  <require type="other" src="images/preloader4.gif" />
+  <require type="other" src="images/shapes.ai" />
+  <require type="other" src="images/square-01.svg" />
+  <require type="other" src="images/text.svg" />
+  <require type="other" src="images/triangle-01.svg" />
+
+  <require type="javascript" src="Site_BG_Site_edge.js" />
+  <require type="javascript" src="js/jquery-1.7.1.min.js" />
+
+  <require type="image" src="images/Poster.png" />
+  <require type="image" src="images/Poster2.png" />
+
+  <require type="folder" src="images" />
+  <require type="folder" src="js" />
+
+
+  <content><![CDATA[
+    <div class="EDGE-95192478"></div>
+  ]]></content>
+   
+  <properties name="Properties">
+    <property name="default-width" defaultValue="1600" hidden="true"/>
+    <property name="default-height" defaultValue="1800" hidden="true"/>
+    <property name="resizable" defaultValue="true" hidden="true"/>				
+		<property name="centering" defaultValue="none" hidden="true"/>				
+		<property name="scaling" defaultValue="width" hidden="true"/>
+    <property name="html-page" defaultValue="Site_BG_Site.html" hidden="true"/>
+  </properties>
+
+</widget>

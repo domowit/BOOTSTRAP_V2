@@ -43,15 +43,7 @@
 <!-- END STYLE-->
 <?php wp_head(); ?>
 
-<script type="text/javascript">
-$(window).bind("scroll", function() {
-    if ($(this).scrollTop() > 450) {
-        $(".navHome").fadeIn();
-    } else {
-        $(".navHome").stop().fadeOut();
-    }
-});
-</script>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 </head>
@@ -66,28 +58,44 @@ $(window).bind("scroll", function() {
 
 	
         	
-<?php if ( is_front_page() ) { ?>
-    <header class="banner row navHome">
+<?php // if ( is_front_page() ) { ?>
+
+
+<a id="nav-toggle"><span></span></a>
+<div class="menu" style="display: none;">
+  <div id="centerNav">
+      <ul id="home-nav">
+      <?php // wp_nav_menu( $args ); ?>
+        <li>Button1</li>
+        <li>Button2</li>
+        <li>Button3</li>
+      </ul>
+	</div>
+  <form class="contact_form" action="" method="post" name="contact_form">
+    <input type="text" name="name" placeholder="Your Name"  required />
+    <input type="text" name="email" placeholder="Your Email" required />
+    <input type="text" name="website" placeholder="Your Message" required/>
+    <button class="submit" type="submit">Send it</button>
+  </form>
+</div> 
+
+
+
+
+
+    <!-- <header class="banner row navHome">
     <div class="container row">				
 		<article class="col span_16">
     	<?php wp_nav_menu( $args ); ?>
     	</article>
     </div>	
-	</header>
-<?php } else { ?>
-	<header class="banner row">
+	</header> -->
+<?php // } else { ?>
+	<!-- <header class="banner row">
 	<div class="container row">				
 		<article class="col span_16">
     	<?php wp_nav_menu( $args ); ?>
     	</article>
     </div>	
-    </header>
-<?php } ?>	
-		
-			
-    
-<!-- INITIATES HEADESHIVE <a id="startHeadhesive"></a>   -->
-    
-
-
-         
+    </header> 
+<?php // } ?>	

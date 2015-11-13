@@ -21,7 +21,7 @@
 	Set the width to whatever you want the width of your site to be. */
 .container { 
 	margin: 0 auto;
-	max-width:1024px;
+	max-width:1140px;
 	padding:0 3em; 
 }
 

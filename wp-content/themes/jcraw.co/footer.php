@@ -1,37 +1,31 @@
-<footer role="contentinfo" class="row">
-	
-		Footer
-	
-	</footer>
-
+<footer role="contentinfo" class="row"> Footer </footer>
 </div>
 
+<!-- NAV BUTTON fade in on scroll 
+<script type="text/javascript">
+$(window).bind("scroll", function() {
+    if ($(this).scrollTop() > 450) {
+        $("#nav-toggle").fadeIn();
+    } else {
+        $("#nav-toggle").stop().fadeOut();
+    }
+});
+</script>--> 
 
-<!-- HEADHESIVE.JS http://markgoodyear.com/2014/04/create-an-on-demand-sticky-header-with-headhesive-js/
-<script src="<?php bloginfo('stylesheet_directory') ?>/js/js_headesive/headhesive.js"></script>
-
+<!-- NAV BUTTON make a burger an X --> 
 <script>
-
-        // Set options
-        var options = {
-            offset: '#startHeadhesive',
-            classes: {
-                clone:   'banner--clone',
-                stick:   'banner--stick',
-                unstick: 'banner--unstick'
-            }
-        };
-
-        // Initialise with options
-        var banner = new Headhesive('.banner', options);
-
-        // Headhesive destroy
-        // banner.destroy();
-    </script>-->
-<!--END JS-->
-
-
+document.querySelector("#nav-toggle")
+  .addEventListener("click", function() {
+    this.classList.toggle("active");
+  });
+ </script> 
+<!-- DROP DAT MENU open menu up --> 
+<script>
+     $(document).ready(function() {
+        $('#nav-toggle').click(function() {
+                $('.menu').slideToggle("fast");
+        });
+    });
+</script>
 <?php wp_footer(); ?>
-
-</body>
-</html>
+</body></html>
