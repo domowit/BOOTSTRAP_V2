@@ -1,17 +1,101 @@
-<?php get_header(); ?>
+<?php
+/**
+Template Name: Home
+ */
+
+get_header(); ?>
+
 <?php // GET QUERIES TO PULL IN OTHER PAGES ?>
+<?php $the_query = new WP_Query( $args ); ?>
+<?php while ( have_posts() ) : the_post(); ?>
 
-<main role="main" class="row gutters">
-		<article class="col span_12">
-				<?php $the_query = new WP_Query( $args ); ?>
-					<?php while ( have_posts() ) : the_post(); ?>
-						<?php the_content(); ?>
-					<?php endwhile; // end of the loop. ?>
-				<?php wp_reset_postdata(); ?>
+<!-- Edge Added Here -->
+<?php assert( "locate_template( array('template_home.php'), true, false )" ); ?>
+<!-- Close Edge -->
+
+
+ 
+<div class="container row introduction" >
+
+
+		<article class="col span_12"> 
+				
+				<h3>
+						<?php the_field('tell_me_more');?>
+				</h3>
 		</article>
-		<aside role="complimentary" class="col span_4"> 
-			Sidebar 
-		</aside>
-</main>
-<?php get_footer(); ?>
+</div>
+<?php echo do_shortcode('[ess_grid alias="portfolio_home"]');?>
+<div class="row interests" >
+		<div class="container">
+		<article class="col span_12">
+				<h1>
+						<?php the_field('other_points_of_interest');?>
+				</h1>
+				</div>
+		</article>
+</div>
+<?php endwhile; // end of the loop. ?>
+<?php wp_reset_postdata(); ?>
 
+
+<!--<script>
+var windw = this;
+
+$.fn.followTo = function ( pos ) {
+    var $this = this,
+        $window = $(windw);
+    
+    $window.scroll(function(e){
+        if ($window.scrollTop() > pos) {
+            $this.css({
+                position: 'absolute',
+                top: pos
+            });
+        } else {
+            $this.css({
+                position: 'fixed',
+                top: 0
+            });
+        }
+    });
+};
+
+$('#f').followTo(200);
+
+</script> -->
+<script>
+var windw = this;
+
+$.fn.followTo = function ( elem ) {
+    var $this = this,
+        $window = $(windw),
+        $bumper = $(elem),
+        bumperPos = $bumper.offset().top,
+        thisHeight = $this.outerHeight(),
+        setPosition = function(){
+            if ($window.scrollTop() > (bumperPos - thisHeight)) {
+                $this.css({
+                    position: 'absolute',
+                    top: (bumperPos - thisHeight)
+                });
+            } else {
+                $this.css({
+                    position: 'fixed',
+                    top: 0
+                });
+            }
+        };
+    $window.resize(function()
+    {
+        bumperPos = pos.offset().top;
+        thisHeight = $this.outerHeight();
+        setPosition();
+    });
+    $window.scroll(setPosition);
+    setPosition();
+};
+
+$('#one').followTo('#two');
+</script>
+<?php get_footer(); ?>

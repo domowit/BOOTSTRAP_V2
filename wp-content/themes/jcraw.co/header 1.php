@@ -64,7 +64,7 @@
 
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 
-[endif]-->
+<![endif]-->
 
 
 
@@ -167,5 +167,36 @@
 
 
 
-	
+
+    <!-- <header class="banner row navHome">
+
+    <div class="container row">				
+
+		<article class="col span_16">
+
+    	<?php wp_nav_menu( $args ); ?>
+
+    	</article>
+
+    </div>	
+
+	</header> -->
+
+<?php // } else { ?>
+
+	<!-- <header class="banner row">
+
+	<div class="container row">				
+
+		<article class="col span_16">
+
+    	<?php wp_nav_menu( $args ); ?>
+
+    	</article>
+
+    </div>	
+
+    </header> -->
+
+<?php // } ?>	
 

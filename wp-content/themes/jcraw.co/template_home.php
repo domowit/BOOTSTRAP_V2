@@ -1,12 +1,7 @@
-<?php
-/**
-Template Name: Edge Animate
- */
-
-?>
+<!-- THIS DUMBY var custHtmlRoot="../../../../../edgeanimate_assets/Site_BG_Site/Assets/";  -->
 <!--Adobe Edge Runtime-->
 <script>
-	var custHtmlRoot="../../../edgeanimate_assets/Site_BG_Site/Assets/"; 
+	var custHtmlRoot="../../../../../edgeanimate_assets/Site_BG_Site/Assets/"; 
 	var script = document.createElement('script'); 
 	script.type= "text/javascript";
 script.src = "http://animate.adobe.com/runtime/6.0.0/edge.6.0.0.min.js";
@@ -20,11 +15,11 @@ script.src = "http://animate.adobe.com/runtime/6.0.0/edge.6.0.0.min.js";
     minW: "0px",
     maxW: "undefined",
     width: "1600px",
-    height: "1800px"
+    height: "2200px"
 };
 			opts.htmlRoot =custHtmlRoot;
 			AdobeEdge.loadComposition('Site_BG_Site', 'EDGE-95192478', opts,
-			{"style":{"${symbolSelector}":{"isStage":"true","rect":["undefined","undefined","1600px","1600px"]}},"dom":{}}, {"dom":{}});		
+			{"style":{"${symbolSelector}":{"isStage":"true","rect":["undefined","undefined","1600px","2200px"]}},"dom":[{"rect":["740","1040","120px","120px","auto","auto"],"id":"preloader42","fill":["rgba(0,0,0,0)","images/preloader42.gif","0px","0px"],"type":"image","tag":"img"}]}, {"dom":{}});		
 			script.onload = script.onreadystatechange = null;
 			head.removeChild(script);
 		}
@@ -36,13 +31,22 @@ script.src = "http://animate.adobe.com/runtime/6.0.0/edge.6.0.0.min.js";
     </style>
 <!--Adobe Edge Runtime End-->
 
+
 <div id="Stage" class="EDGE-95192478"></div>
-<div id="f" style="z-index:3000">
+<div id="one" style="z-index:300">
+							<div class="bottomTitle">
+							<h1>craw.co<br>
+						is a multidisciplinary<br>
+						design studio</h1>
+						</div>
+						
+					</div>
+		<div id="two">&nbsp; <!--push is up --></div>
+
+	
+
 		
-		<h1>craw.co<br>
-	is a multidisciplinary<br>
-	design studio</h1>
-</div>
 
 
-<div class="clearDiv"></div>
+
+

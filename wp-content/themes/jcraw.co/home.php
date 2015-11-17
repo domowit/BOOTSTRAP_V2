@@ -4,31 +4,7 @@ Template Name: Home
  */
 
 get_header(); ?>
-<!--<script>
-var windw = this;
 
-$.fn.followTo = function ( pos ) {
-    var $this = this,
-        $window = $(windw);
-    
-    $window.scroll(function(e){
-        if ($window.scrollTop() > pos) {
-            $this.css({
-                position: 'absolute',
-                top: pos
-            });
-        } else {
-            $this.css({
-                position: 'fixed',
-                top: 0
-            });
-        }
-    });
-};
-
-$('#f').followTo(250);
-
-</script>-->
 <?php // GET QUERIES TO PULL IN OTHER PAGES ?>
 <?php $the_query = new WP_Query( $args ); ?>
 <?php while ( have_posts() ) : the_post(); ?>
@@ -43,7 +19,7 @@ $('#f').followTo(250);
 
 
 		<article class="col span_12"> 
-				<!-- <h1><?php the_field('introduction');?> </h1> -->
+				
 				<h3>
 						<?php the_field('tell_me_more');?>
 				</h3>

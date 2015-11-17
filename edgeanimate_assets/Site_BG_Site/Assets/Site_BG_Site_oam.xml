@@ -6,7 +6,7 @@
 
   <remarks>Compatible with: InDesign CC, Dreamweaver CC, Muse</remarks>
 
-  <icon src="images/Poster2.png" width="1600" height="1800" />
+  <icon src="images/Poster2.png" width="1600" height="2200" />
 
   <require type="other" src="Site_BG_Site.html" />
   <require type="other" src="images/all.svg" />
@@ -34,7 +34,7 @@
    
   <properties name="Properties">
     <property name="default-width" defaultValue="1600" hidden="true"/>
-    <property name="default-height" defaultValue="1800" hidden="true"/>
+    <property name="default-height" defaultValue="2200" hidden="true"/>
     <property name="resizable" defaultValue="true" hidden="true"/>				
 		<property name="centering" defaultValue="none" hidden="true"/>				
 		<property name="scaling" defaultValue="width" hidden="true"/>
