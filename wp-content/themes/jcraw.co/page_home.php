@@ -4,7 +4,6 @@ Template Name: Home
  */
 
 get_header(); ?>
-
 <?php // GET QUERIES TO PULL IN OTHER PAGES ?>
 <?php $the_query = new WP_Query( $args ); ?>
 <?php while ( have_posts() ) : the_post(); ?>
@@ -12,58 +11,39 @@ get_header(); ?>
 <!-- Edge Added Here -->
 <?php assert( "locate_template( array('template_home.php'), true, false )" ); ?>
 <!-- Close Edge -->
-
-
- 
+<div id="aboutdown"></div>
 <div class="container row introduction" >
-
-
-		<article class="col span_12"> 
-				
-				<h3>
-						<?php the_field('tell_me_more');?>
-				</h3>
-		</article>
+  <article class="col span_12">
+   
+      <?php the_field('tell_me_more');?>
+    
+  </article>
 </div>
-<?php echo do_shortcode('[ess_grid alias="portfolio_home"]');?>
+<?php echo do_shortcode('[ess_grid alias="HomePage-031729"]');?>
 <div class="row interests" >
-		<div class="container">
-		<article class="col span_12">
-				<h1>
-						<?php the_field('other_points_of_interest');?>
-				</h1>
-				</div>
-		</article>
+  <div class="container">
+  <article class="col span_12">  
+    
+      <?php the_field('other_points_of_interest');?>
+    
+    </div>
+  </article>
 </div>
+<!--
+<div class="row" >
+  <div class="container">
+  <article class="col span_12">
+    <h1>
+      about
+    </h1>
+    I’m Johnathan Crawford. A graphic designer, living in Chicago. I have operated Domowit, which is a multidisciplinary design studio, for the last seven years. It’s focus has been on web development and user experiences, as well as traditional design and art direction. 
+
+By nature, I’m a very curious and tactile person, relentlessly striving for a high level of craftsmanship. This perseverance has given me a broad and unique skill set. My work spans many mediums. From print, web, video, photography, furniture design, creative direction. Jack of all trades, master of some.
+    </div>
+  </article>
+</div>-->
 <?php endwhile; // end of the loop. ?>
 <?php wp_reset_postdata(); ?>
-
-
-<!--<script>
-var windw = this;
-
-$.fn.followTo = function ( pos ) {
-    var $this = this,
-        $window = $(windw);
-    
-    $window.scroll(function(e){
-        if ($window.scrollTop() > pos) {
-            $this.css({
-                position: 'absolute',
-                top: pos
-            });
-        } else {
-            $this.css({
-                position: 'fixed',
-                top: 0
-            });
-        }
-    });
-};
-
-$('#f').followTo(200);
-
-</script> -->
 <script>
 var windw = this;
 

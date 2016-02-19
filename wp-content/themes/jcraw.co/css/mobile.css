@@ -1,120 +1,11 @@
-/*
-Theme Name: 	craw.co
-Theme URI: 		
-Description: Johnathan Crawford's Portfolio
-Version: 	1.0
-Author: 	Johnathan Crawford
-Author URI: http://craw.co
-Tags: 	SIMPLE FRAMEWORK Something new
-*/
-@import "css/ie.css";
-@import "css/reset.css";
-@import "css/responsive.gs.12col.css";
-/*@import "css/headhesive.css";*/
-@import "css/form.css";
-
-html, body {
-	height: 100%;
-	-webkit-font-smoothing: antialiased;
-	font-size: .95em;
-	line-height: 1.625em;
-}
-body {
-	font-family: 'gt_walsheim_regular';
-}
-.clear {
-	clear: both;
-}
-hr {
-	margin-top: 20px;
-	margin-bottom: 20px;
-	border: 0;
-	border-top: 1px solid #eee;
-	padding: 0;
-}
-/* GT Walsheim Web Regular */
-@font-face {
-	font-family: 'gt_walsheim_regular';
-	src: url("fonts/GT-Walsheim-Regular.eot");
-	src: url("fonts/GT-Walsheim-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/GT-Walsheim-Regular.woff") format("woff"), url("fonts/GT-Walsheim-Regular.ttf") format("truetype"), url("fonts/GT-Walsheim-Regular.svg#gt_walsheim_regular") format("svg");
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'gt_walsheim_regular_oblique';
-	src: url("fonts/GT-Walsheim-Regular-Oblique.eot");
-	src: url("fonts/GT-Walsheim-Regular-Oblique.eot?#iefix") format("embedded-opentype"), url(".fonts/GT-Walsheim-Regular-Oblique.woff") format("woff"), url("fonts/GT-Walsheim-Regular-Oblique.ttf") format("truetype"), url("fonts/GT-Walsheim-Regular-Oblique.svg#gt_walsheim_regular_oblique") format("svg");
-	font-weight: normal;
-	font-style: normal;
-}
-/* GT Walsheim Web Medium */
-
-@font-face {
-	font-family: 'gt_walsheim_medium';
-	src: url("fonts/GT-Walsheim-Medium.eot");
-	src: url(".fonts/GT-Walsheim-Medium.eot?#iefix") format("embedded-opentype"), url("fonts/GT-Walsheim-Medium.woff") format("woff"), url("fonts/GT-Walsheim-Medium.ttf") format("truetype"), url(".fonts/GT-Walsheim-Medium.svg#gt_walsheim_medium") format("svg");
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'gt_walsheim_medium_oblique';
-	src: url("fonts/GT-Walsheim-Medium-Oblique.eot");
-	src: url("fonts/GT-Walsheim-Medium-Oblique.eot?#iefix") format("embedded-opentype"), url("fonts/GT-Walsheim-Medium-Oblique.woff") format("woff"), url("fonts/GT-Walsheim-Medium-Oblique.ttf") format("truetype"), url("fonts/GT-Walsheim-Medium-Oblique.svg#gt_walsheim_medium_oblique") format("svg");
-	font-weight: normal;
-	font-style: normal;
-}
-h1, h2 {
-	font-family: 'gt_walsheim_medium', serif;
-}
-h3 {
-	font-family: 'gt_walsheim_regular', serif;
-}
-h4 {
-	text-transform: uppercase;
-}
+@media ( min-width : 768px ) {
 p {
 	font-size: 1.2em;
 	margin-bottom: 30px
 }
 
 
-h3	> a {
-  position: relative;
-  color: #e52790;
-  text-decoration: none;
-}
 
-
-h3 a:hover {
-  color: #e52790;
-  
-}
-
-h3 a:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 3px;
-  bottom: 0;
-  left: 0;
-  background-color: #e52790;
-  visibility: hidden;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
-}
-
-h3 > a:hover:before {
-  visibility: visible;
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
-}
-
-b, strong {
-	font-family: 'gt_walsheim_medium', serif;
-	font-weight: bold;
-}
 /* NAVIGATION */
 #nav-toggle {
 	position: fixed;
@@ -358,52 +249,6 @@ b, strong {
    color: #fff;  
 }
 
-/*FORM
-:-moz-placeholder {
- color: #ccc;
-}
- 
-::-webkit-input-placeholder {
- color: #ccc;
-}
-*:focus {
-	outline: none;
-}
-.contact_form label {
-	width: 150px;
-	margin-top: 3px;
-	display: inline-block;
-	float: left;
-	padding: 3px;
-}
-.contact_form input {
-	height: 20px;
-	width: 220px;
-	padding: 5px 8px;
-}
-.contact_form textarea {
-	padding: 8px;
-	width: 300px;
-}
-.contact_form button {
-	margin-left: 156px;
-}
-.contact_form input:focus, .contact_form textarea:focus { 
-	padding-right: 70px;
-}
-.contact_form input, .contact_form textarea { 
-	-moz-transition: padding .25s;
-	-webkit-transition: padding .25s;
-	-o-transition: padding .25s;
-	transition: padding .25s;
-}
-.contact_form input, .contact_form textarea {
-	padding-right: 30px;
-}
-::-webkit-validation-bubble-message {
- padding: 1em;
-}*/
-/* HOME PAGE */
 .homeIntro {
 	height: 100%;
 	width: 100%;
@@ -674,7 +519,7 @@ opacity: 1;
 .navigationPost .nav-next {
 	position: fixed;
 	font-size: 22px;
-	background-color: #000;
+	background-color: #ccc;
 	display: block;
 	padding: 5px 8px 5px 12px;
 	color: #6E6E6E;
@@ -694,7 +539,7 @@ opacity: 1;
 .navigationPost .nav-previous {
 	position: fixed;
 	font-size: 22px;
-	background-color: #000;
+	background-color: #ccc;
 	display: block;
 	padding: 5px 12px 5px 8px;
 	color: #6E6E6E;
@@ -720,7 +565,7 @@ opacity: 1;
 /*	Typography VIA http://www.gridlover.net/app/  (MAJOR SIXTH) */
 
 h1 {
-	font-size: 4.625em;
+	font-size: 1.8em;
 	line-height: 1.054054053em;
 	margin-top: 0.7027027em;
 	margin-bottom: 0.35135135em;
@@ -751,115 +596,5 @@ p, ul, ol, pre, table, blockquote {
 	margin-top: 1.625em;
 	margin-bottom: 1.625em;
 }
-/* Sanitation */
-hr {
-	border: 1px solid;
-	margin: -1px 0;
-}
-ul ul, ol ol, ul ol, ol ul {
-	margin-top: 0;
-	margin-bottom: 0;
-}
-b, strong, em, small, code {
-	line-height: 1;
-}
-sup, sub {
-	vertical-align: baseline;
-	position: relative;
-	top: -0.4em;
-}
-sub {
-	top: 0.4em;
-}
 
-@media ( max-width : 700px ) {
-	h1 {
-	font-size: 2.2em;
-	line-height: 1.054054053em;
-	margin-top: 0.7027027em;
-	margin-bottom: 0.35135135em;
-	font-weight: bold
-}
-.smaller{
-	font-size: .4em;
-	line-height: 1.054054053em;
-}
-h3 {
-	font-size: 1.2em;
-	line-height: 1.6875em;
-	margin-top: 1.925925926em;
-	margin-bottom: 0.96296296em;
-	font-weight: bold
-}
-#one .bottomTitle {
-	position: absolute;
-	bottom: 50px;
-	padding: 0 10px;
-	max-width:1140px;
-	
-}
-.container { 
-	margin: 0 auto;
-	max-width:1140px;
-	padding:0 10px; 
-}
-.navigationPost .nav-next {
-	top: 0;
-}
-.navigationPost .nav-previous {
-	top: 0;
-	
-}
-#nav-toggle {
-	padding: 0px 35px 16px 0px;
-	margin:14px 30px ;
-}
-#centerNav {
-	margin: 18% auto 40px auto;
-	max-width: 100%;
-	padding: 0;
-	height: 84px;
-	text-align: center;
-	
-	border-bottom: solid black 4px;
-}
-#home-nav li {
-	position: relative;
-	display: inline-block;
-	text-align: center;
-	background: none;
-	font-size: 1.3em;
-	font-family: 'gt_walsheim_medium';
-	line-height: 60px;
-	padding: 6px ;
-}
-.wpcf7 input[type=text], .wpcf7 input[type=email] {
-        width: 100%;
-		margin:0 0 10px 0;
-}
-.wpcf7-submit {
-    float: left;
-    width: 100%;
-    
-}
-.smaller{
-	font-size: 1em;
-}
-.interests h1 {
-	font-size: 1.2em;
-}
-
-}
-@media ( max-width : 600px ) {
-	h1 {
-	font-size: 3em;
-	line-height: 1.054054053em;
-	margin-top: 0.7027027em;
-	margin-bottom: 0.35135135em;
-	font-weight: bold
-}
-.smaller{
-	font-size: .4em;
-	line-height: 1.054054053em;
-}
 }

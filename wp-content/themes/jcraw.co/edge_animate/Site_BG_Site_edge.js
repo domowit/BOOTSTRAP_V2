@@ -73,7 +73,7 @@
                     }
                 },
                 timeline: {
-                    duration: 3500,
+                    duration: 2821.8848031706,
                     autoPlay: true,
                     data: [
                         [
@@ -110,7 +110,7 @@
                             "eid179",
                             "top",
                             2116,
-                            1384,
+                            705,
                             "easeOutQuad",
                             "${square-01}",
                             '428px',
@@ -179,7 +179,7 @@
                         [
                             "eid65",
                             "opacity",
-                            2429,
+                            2050,
                             0,
                             "easeOutQuad",
                             "${triangle-01}",
@@ -220,7 +220,7 @@
                             "eid193",
                             "background-color",
                             0,
-                            1017,
+                            357,
                             "swing",
                             "${Stage}",
                             'rgba(245,87,87,1.00)',
@@ -229,8 +229,8 @@
                         [
                             "eid187",
                             "background-color",
-                            1017,
-                            733,
+                            357,
+                            349,
                             "swing",
                             "${Stage}",
                             'rgba(119,22,74,1)',
@@ -239,8 +239,8 @@
                         [
                             "eid189",
                             "background-color",
-                            1750,
-                            600,
+                            705,
+                            470,
                             "swing",
                             "${Stage}",
                             'rgba(229,39,144,1)',
@@ -249,8 +249,8 @@
                         [
                             "eid191",
                             "background-color",
-                            2350,
-                            1150,
+                            1176,
+                            628,
                             "swing",
                             "${Stage}",
                             'rgba(23,133,65,1)',
@@ -280,7 +280,7 @@
                             "eid36",
                             "top",
                             1073,
-                            1448,
+                            1043,
                             "easeOutQuad",
                             "${triangle-01}",
                             '0px',
@@ -289,8 +289,8 @@
                         [
                             "eid178",
                             "top",
-                            2521,
-                            979,
+                            2116,
+                            705,
                             "easeOutQuad",
                             "${triangle-01}",
                             '-288px',
@@ -310,7 +310,7 @@
                             "eid35",
                             "left",
                             1073,
-                            1448,
+                            1043,
                             "easeOutQuad",
                             "${triangle-01}",
                             '-226px',

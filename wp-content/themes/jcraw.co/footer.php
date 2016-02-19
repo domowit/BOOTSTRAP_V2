@@ -1,16 +1,8 @@
-<footer role="contentinfo" class="row"> Footer </footer>
+<footer role="contentinfo" class="row"> 
+<div class="bottom">craw.co 2015 | all rights reserved</div>
+</footer>
 </div>
 
-<!-- NAV BUTTON fade in on scroll 
-<script type="text/javascript">
-$(window).bind("scroll", function() {
-    if ($(this).scrollTop() > 450) {
-        $("#nav-toggle").fadeIn();
-    } else {
-        $("#nav-toggle").stop().fadeOut();
-    }
-});
-</script>--> 
 
 <!-- NAV BUTTON make a burger an X --> 
 <script>
@@ -23,7 +15,7 @@ document.querySelector("#nav-toggle")
 <script>
      $(document).ready(function() {
         $('#nav-toggle').click(function() {
-                $('.menu').slideToggle("fast");
+                $('.menu').slideToggle("3000");
         });
     });
 </script>

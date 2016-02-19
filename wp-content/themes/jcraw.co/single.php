@@ -5,7 +5,7 @@
 <?php while ( have_posts() ) : the_post(); ?>
 
 <?php if ( is_single( 'photography' ) ){?>
- 
+ <h1 align="center"><?php the_title(); ?></h1>
 		<div class="gallery" style="margin-top:-100px;"> 
 <?php if( have_rows('flex_gallery') ):
     while ( have_rows('flex_gallery') ) : the_row(); ?>
@@ -181,4 +181,5 @@ $(".jumper").on("click", function( e ) {
     
 });
 </script>
+<?php echo do_shortcode('[ess_grid alias="footer"]');?>
 <?php get_footer(); ?>

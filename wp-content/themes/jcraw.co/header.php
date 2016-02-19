@@ -41,23 +41,14 @@
 <!--<![endif]-->
 
 <head>
-
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
-
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
 <title>
-
 <?php wp_title( '|', true, 'right' ); ?>
-
 </title>
-
 <link rel="icon" type="image/png" href="<?php bloginfo('stylesheet_directory') ?>/images/favicon.ico">
-
 <link rel="profile" href="http://gmpg.org/xfn/11" />
-
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-
 <?php // Loads HTML5 JavaScript file to add support for HTML5 elements in older IE versions. ?>
 
 <!--[if lt IE 9]>
@@ -66,17 +57,12 @@
 
 [endif]-->
 
-
-
 <!-- JS HERE-->
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
 <script src="<?php bloginfo('stylesheet_directory') ?>/js/respond.min.js"></script>
 
 <!--END JS-->
-
-
 
 <!-- STYLE-->
 
@@ -85,87 +71,41 @@
 <!-- END STYLE-->
 
 <?php wp_head(); ?>
-
-
-
-
-
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
-
-
 </head>
 
-
-
 <body <?php body_class(); ?>>
-
-
-
-
-
- 
-
-    
-
-    
-
-    
-
-
-
-	
-
-        	
-
-<?php // if ( is_front_page() ) { ?>
-
-
-
-
-
+<?php  if ( is_front_page() ) { ?>
 <a id="nav-toggle"><span></span></a>
-
 <div class="menu" style="display: none;">
-
   <div id="centerNav">
-
-      <ul id="home-nav">
-
-      <?php // wp_nav_menu( $args ); ?>
-
-        <li>Button1</li>
-
-        <li>Button2</li>
-
-        <li>Button3</li>
-
-      </ul>
-
-	</div>
-
-  <form class="contact_form" action="" method="post" name="contact_form">
-
-    <input type="text" name="name" placeholder="Your Name"  required />
-
-    <input type="text" name="email" placeholder="Your Email" required />
-
-    <input type="text" name="website" placeholder="Your Message" required/>
-
-    <button class="submit" type="submit">Send it</button>
-
-  </form>
-
-</div> 
-
-
-
-
-
-
-
-
-
-
-	
-
+    <ul id="home-nav">
+      <li><a href="/category/featured-work/">see the portfolio</a></li>
+    </ul>
+  </div>
+  <?php } elseif ( is_category( 'featured-work') ) { ?>
+  <a id="nav-toggle"><span></span></a>
+<div class="menu" style="display: none;">
+  <div id="centerNav">
+    <ul id="home-nav">
+    	<li><a href="/">take me home</a></li>
+    </ul>
+  </div> 
+  <?php } else { ?>
+ <a id="nav-toggle"><span></span></a>
+<div class="menu" style="display: none;">
+  <div id="centerNav">
+    <ul id="home-nav">
+    	<li><a href="/">take me home</a></li>
+      	<li><a href="/category/featured-work/">see the portfolio</a></li>
+    </ul>
+  </div> 
+  
+  <?php } ?>
+ 
+ 
+ 
+ 
+ <?php assert( "locate_template( array('template_contact.php'), true, false )" ); ?>
+  
+</div>

@@ -1,1 +1,1 @@
-/*Silence*/
+<!-- Silence-->

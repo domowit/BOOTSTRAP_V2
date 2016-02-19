@@ -26,27 +26,24 @@ script.src = "http://animate.adobe.com/runtime/6.0.0/edge.6.0.0.min.js";
 	};
 	head.appendChild(script);
 	</script>
-<style>
-        .edgeLoad-EDGE-95192478 { visibility:hidden; }
-    </style>
-<!--Adobe Edge Runtime End-->
+ 
+    <style>
+.edgeLoad-EDGE-95192478 {
+	visibility: hidden;
+}
+</style>
+    <!--Adobe Edge Runtime End-->
 
-
-<div id="Stage" class="EDGE-95192478"></div>
-<div id="one" style="z-index:300">
-							<div class="bottomTitle">
-							<h1>craw.co<br>
-						is a multidisciplinary<br>
-						design studio</h1>
-						</div>
-						
-					</div>
-		<div id="two">&nbsp; <!--push is up --></div>
-
-	
-
-		
-
-
-
-
+	<div id="Stage" class="EDGE-95192478"></div>
+    <div id="one" style="z-index:300">
+      <div class="bottomTitle">
+      
+  
+        	<h1>craw.co<br>
+          	<div class="smaller">is a multidisciplinary<br>
+          	design studio</div></h1>
+          
+      </div>
+    </div>
+    <div id="two">&nbsp; <!--push is up --></div>
+    
